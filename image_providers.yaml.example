@@ -1,0 +1,29 @@
+# 图片生成服务商配置
+# 复制此文件为 image_providers.yaml 并填写你的配置
+
+# 当前激活的服务商（填写下方 providers 中的名称）
+active_provider: gemini
+
+# 服务商列表
+providers:
+  # Google Gemini 图片生成（推荐）
+  gemini:
+    type: google_genai
+    api_key: AIzaxxxxxxxxxxxxxxxxxxxxxxxxx
+    model: gemini-3-pro-image-preview
+    high_concurrency: false  # 是否启用高并发，GCP 300$ 试用账号不建议启用
+
+  # Google Vertex AI（需要配置 GCP 凭证）
+  vertex:
+    type: google_genai
+    api_key: your-vertex-api-key
+    model: gemini-3-pro-image-preview
+    high_concurrency: true  # 付费账号可以启用高并发
+
+  # OpenAI 兼容接口（如支持图片生成的第三方 API）
+  openai_image:
+    type: image_api
+    api_key: sk-xxxxxxxxxxxxxxxxxxxx
+    base_url: https://your-api-endpoint.com
+    model: dall-e-3
+    high_concurrency: false

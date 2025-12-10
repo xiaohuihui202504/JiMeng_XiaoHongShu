@@ -1,0 +1,48 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv
+venv
+ENV
+.uv
+
+# Node
+node_modules
+frontend/node_modules
+
+# 构建产物（会在 Docker 内重新构建）
+frontend/dist
+
+# IDE
+.idea
+.vscode
+*.swp
+*.swo
+
+# 输出目录（用户数据）
+output
+history
+
+# 环境变量（敏感信息）
+.env
+.env.local
+.env.*.local
+
+# 日志
+*.log
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 测试
+.pytest_cache
+.coverage
+htmlcov

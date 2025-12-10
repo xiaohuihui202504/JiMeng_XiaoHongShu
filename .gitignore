@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.venv
+venv/
+ENV/
+env/
+.uv/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+dist/
+dist-ssr/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables (legacy, no longer used)
+.env
+.env.local
+.env.*.local
+
+# Generated files - History directory
+# 忽略所有 history 目录下的内容
+history/*
+# 但保留 .gitkeep 文件以保持目录结构
+!history/.gitkeep
+
+# API configurations (contain API keys)
+.gemini/
+/image_providers.yaml
+/text_providers.yaml
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+coverage/
+.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
+*.temp
+test_*.py
+debug_*.py
+
+# Dev notes
+DEV_NOTES.md
+commit_message.txt

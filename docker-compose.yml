@@ -1,0 +1,14 @@
+services:
+  LitBanana:
+    image: wwwzhouhui569/jimeng_xiaohongshu:latest
+    container_name: LitBanana
+    ports:
+      - "5500:5500"
+    volumes:
+      # 持久化数据目录
+      - ./history:/app/history
+      - ./output:/app/output
+      # 可选：挂载自定义配置文件
+      # - ./text_providers.yaml:/app/text_providers.yaml
+      # - ./image_providers.yaml:/app/image_providers.yaml
+    restart: unless-stopped

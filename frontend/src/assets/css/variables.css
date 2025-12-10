@@ -1,0 +1,33 @@
+:root {
+  /* 配色方案 - 现代简约风格 */
+  --bg-body: #F4F5F7;
+  --bg-sidebar: #FFFFFF;
+  --bg-card: #FFFFFF;
+  
+  --primary: #FF2442; /* 小红书红 */
+  --primary-hover: #FF4D6A;
+  --primary-active: #D91C36;
+  --primary-light: #FFF0F2;
+  --primary-fade: rgba(255, 36, 66, 0.08);
+  
+  --text-main: #333333;
+  --text-sub: #666666;
+  --text-secondary: #999999;
+  --text-placeholder: #CCCCCC;
+  
+  --border-color: #EEEEEE;
+  --border-hover: #E0E0E0;
+  
+  --radius-xl: 24px;
+  --radius-lg: 16px;
+  --radius-md: 12px;
+  --radius-sm: 8px;
+  
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 12px 48px rgba(0, 0, 0, 0.1);
+  --shadow-hover: 0 16px 48px rgba(0, 0, 0, 0.08);
+  
+  --sidebar-width: 260px;
+  --header-height: 64px;
+}

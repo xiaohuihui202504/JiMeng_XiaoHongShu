@@ -1,0 +1,10 @@
+# 图片生成服务配置
+# 请在 Web 界面的"设置"页面中配置 API Key
+active_provider: default
+providers:
+  default:
+    api_key: ""
+    base_url: https://api.openai.com/v1
+    high_concurrency: false
+    model: dall-e-3
+    type: image_api
