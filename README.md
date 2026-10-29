@@ -474,7 +474,7 @@ A: Docker 部署保存在 `./history` 目录，本地部署保存在项目 `hist
 
 欢迎加入技术交流群，分享你的使用心得和反馈建议：
 
-![技术交流群](https://mypicture-1258720957.cos.ap-nanjing.myqcloud.com/Obsidian/image-20261024100147846.png)
+![技术交流群](https://mypicture-1258720957.cos.ap-nanjing.myqcloud.com/Obsidian/Screenshot_20261029_102501_com.tencent.mm.jpg)
 
 ---
 
